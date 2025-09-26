@@ -19,7 +19,7 @@ It is possible to be connected from multiple locations at the same time. All cli
 
 > **ℹ️ Most messages are double-encoded!**
 >
-> All notification `content` values will be documented in JSON object form. The "`content`" frield is a **stringified** version of the JSON object, and needs to be unpacked separately. _(with the exception of `see-notification` and `hide-notification` events, which take a notification ID instead.)_
+> All notification `content` values will be documented in JSON object form. The "`content`" field is a **stringified** version of the JSON object, and needs to be unpacked separately. _(with the exception of `see-notification` and `hide-notification` events, which take a notification ID instead.)_
 >
 > ```json
 > {
